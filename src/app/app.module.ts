@@ -11,6 +11,7 @@ import { TeamformComponent } from './teamform/teamform.component';
   declarations: [
     AppComponent,
     TeamsComponent,
+    TeamformComponent,
     TeamformComponent
   ],
   imports: [
