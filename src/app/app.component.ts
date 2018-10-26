@@ -8,6 +8,6 @@ import { George } from './models';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Sports Bulletin';
   ngOnInit() {}
 }

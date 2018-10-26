@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TeamsComponent } from './teams/teams.component';
+import { TeamformComponent } from './teamform/teamform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TeamsComponent
+    TeamsComponent,
+    TeamformComponent
   ],
   imports: [
     BrowserModule,
