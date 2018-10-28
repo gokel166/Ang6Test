@@ -5,7 +5,6 @@
       <table class="table table-dark">
         <thead class="thead-light">
           <tr>
-            <th scope="col">#</th>
             <th scope="col">City</th>
             <th scope="col">Team Name</th>
             <th scope="col">State</th>
@@ -14,7 +13,6 @@
         </thead>
         <tbody>
           <tr *ngFor="let tm of teams">
-            <th scope="row">{{tm.id}}</th>
             <td>{{tm.city}}</td>
             <td>{{tm.teamName}}</td>
             <td>{{tm.teamState}}</td>
@@ -25,3 +23,5 @@
     </div>
   </div>
 </div>
+
+<app-teamform></app-teamform>
